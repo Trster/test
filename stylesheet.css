@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans';
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/free-photo/grunge-paint-background_1409-1337.jpg?w=2000);
+    background-size: cover;
+}
+.nb {
+    background: cyan;
+    height: 70px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 5px 0 gray ;
+}
+.nb > h1 {
+    font-size: 30px;
+}
+.nm {
+    display: flex;
+    gap: 40px;
+}
+.hp {
+    background: transparent;
+    height: 400px;
+    padding: 0 5%;
+}
+.pcs {
+    display: flex;
+    gap: 20px;
+    height: 10px;
+    width: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.gmb {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    gap: 40px;
+}
